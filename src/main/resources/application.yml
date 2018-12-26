@@ -1,0 +1,14 @@
+spring.profiles.active: local
+---
+
+spring:
+  profiles: local
+  datasource: 
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/testdb
+    username: root
+    password: delta007
+
+
+testparam:
+id: testing
